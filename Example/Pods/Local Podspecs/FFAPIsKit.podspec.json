@@ -1,0 +1,27 @@
+{
+  "name": "FFAPIsKit",
+  "version": "0.1.0",
+  "summary": "A short description of FFAPIsKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/huihui237250/FFAPIsKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "huihui237250": "banning.cai@dingtone.me"
+  },
+  "source": {
+    "git": "https://github.com/huihui237250/FFAPIsKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FFAPIsKit/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}
