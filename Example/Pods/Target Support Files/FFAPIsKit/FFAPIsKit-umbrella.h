@@ -15,6 +15,8 @@
 #import "APIResponseProtocol.h"
 #import "FFReformProtocol.h"
 #import "NetworkHelper.h"
+#import "DBManager.h"
+#import "FFHelper.h"
 
 FOUNDATION_EXPORT double FFAPIsKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char FFAPIsKitVersionString[];
