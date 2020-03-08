@@ -69,13 +69,9 @@ static FMDatabase *_db;
     NSData *cacheData = [NSKeyedArchiver archivedDataWithRootObject:item];
     BOOL isSuccess = [_db executeUpdateWithFormat:@"INSERT INTO T_CACHE (cache_data,cache_key) VALUES (%@,%@)",cacheData,cacheKey];
     if (isSuccess) {
-        NSLog(@"---------------");
         NSLog(@" insert success");
-        NSLog(@"---------------");
     }else{
-        NSLog(@"-------------");
         NSLog(@" insert faild");
-        NSLog(@"-------------");
     }
 }
 
